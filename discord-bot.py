@@ -8,7 +8,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 # ID du rôle autorisé
-AUTHORIZED_ROLE_ID = votre id de rôle
+AUTHORIZED_ROLE_ID = votre id de rôle | your role id
 
 def has_authorized_role():
     def predicate(interaction: discord.Interaction):
